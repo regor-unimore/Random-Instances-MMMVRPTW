@@ -25,10 +25,6 @@ Each scenario is stored in an Excel file. The repository is structured as follow
 
 ```
 .
-├── Turin/
-│   ├── Turin_2d_100c.xlsx
-│   ├── Turin_2d_150c.xlsx
-│   └── Turin_3d_200c.xlsx
 ├── Milan/
 │   ├── Milan_2d_100c.xlsx
 │   ├── Milan_2d_150c.xlsx
@@ -37,6 +33,10 @@ Each scenario is stored in an Excel file. The repository is structured as follow
 │   ├── Palermo_2d_100c.xlsx
 │   ├── Palermo_2d_150c.xlsx
 │   └── Palermo_3d_200c.xlsx
+├── Turin/
+│   ├── Turin_2d_100c.xlsx
+│   ├── Turin_2d_150c.xlsx
+│   └── Turin_3d_200c.xlsx
 ```
 
 ## Excel File Structure
