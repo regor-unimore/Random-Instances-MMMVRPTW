@@ -58,7 +58,7 @@ This sheet includes detailed information on both depots and customers.
   - `H`: Medium-sized customer.
   - `T`: Small customer.
 - **Province**: The province to which the node belongs.
-- **Latitude**, **Longitude**: Geographical coordinates.
+- **Latitude**, **Longitude**: Geographical coordinates randomly generated through [QGIS](https://qgis.org/).
 - **TW-a**, **TW-b**: Start and end of the allowed time window (in minutes from midnight).
 - **mo_dem – sa_dem**: Daily demand from Monday to Saturday.
 - **mo_serv – sa_serv**: Service time required each day.
@@ -74,7 +74,7 @@ This sheet includes detailed information on both depots and customers.
 This sheet contains the full distance matrix (in kilometers) between all nodes (depots + customers).
 
 - Matrix dimensions: *(#depots + #customers) x (#depots + #customers)*  
-- Distances have been computed using the Open Source Routing Machine (OSRM) (https://project-osrm.org/)
+- Distances have been computed using the [Open Source Routing Machine (OSRM)](https://project-osrm.org/).
 
 ### 3. Sheet: `Vehicle Description`
 
@@ -92,7 +92,7 @@ This sheet provides the characteristics of the vehicle types available in each d
 
 ## Purpose
 
-These instances were created to test the proposed methods to address a rich vehicle routing problem with time windows, specifically to explore how performance varies with customer density, and number of depots. The instances are designed to support research on complex vehicle routing problems involving:
+These instances were created to test the proposed methods to address a rich vehicle routing problem with time windows, specifically to explore how performance varies with customer density and number of depots. The instances are designed to support research on complex vehicle routing problems involving:
 
 - Multiple periods (daily demand and service over a 6-day week)
 - Multiple depots
